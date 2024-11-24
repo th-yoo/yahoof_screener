@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "project"
+version = "0.1.0"
+description = "`project` is a Python package that ..."
+authors = ["th yoo <taihyungyoo@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/th-yoo/project"
+keywords = []
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

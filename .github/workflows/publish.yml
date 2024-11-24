@@ -1,0 +1,37 @@
+name: Publish to PyPI
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install Poetry
+        run: |
+          export POETRY_HOME=$HOME/.poetry
+          python3 -m venv $POETRY_HOME
+          $POETRY_HOME/bin/pip install poetry==1.8.3
+          $POETRY_HOME/bin/poetry --version
+
+      - name: Install dependencies
+        run: $HOME/.poetry/bin/poetry install
+
+#      - name: Build package
+#        run: $HOME/.poetry/bin/poetry build
+
+      - name: Publish to PyPI
+        env:
+          POETRY_PYPI_TOKEN_PYPI: ${{ secrets.PYPI_KEY }}
+        run: $HOME/.poetry/bin/poetry publish --build

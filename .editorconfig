@@ -1,0 +1,19 @@
+# https://editorconfig.org/
+# https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options?view=vs-2019
+# 
+
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = tab
+indent_size = 8
+
+[*.{ts,js,json}]
+indent_style = tab
+indent_size = 8
+
+[*.py]
+indent_style = space
+indent_size = 4
