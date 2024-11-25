@@ -14,6 +14,7 @@ $ pip install yscreener
 ```python
 import asyncio
 import aiohttp
+from yscreener import YahooFClient
 
 async def main():
     client = YahooFClient()

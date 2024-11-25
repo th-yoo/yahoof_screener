@@ -8,13 +8,13 @@ import platform
 if platform.system()=='Windows':
     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
-from crawlee.fingerprint_suite._header_generator import HeaderGenerator
+from .crawlee.fingerprint_suite._header_generator import HeaderGenerator
 
 header_gen = HeaderGenerator()
 
 import random
 
-from screener_expr import parse_screener_expr
+from .screener_expr import parse_screener_expr
 
 class YahooFClient:
     MAX_ITEM = 250
