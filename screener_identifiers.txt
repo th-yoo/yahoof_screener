@@ -1,0 +1,420 @@
+https://finance.yahoo.com/research-hub/screener/equity/?start=0&count=25
+
+
+Popular
+
+% Change in Price (Intraday)
+Exchange
+Price (Intraday)
+Market Cap (Intraday)
+Beta (5Y Monthly)
+
+
+Market Data
+
+Region
+    "region": {
+        "za", "ve", "vn", "us", "tw", "th", "tr", "sr", "sg", "sa", "se", "ru", "ro", "qa", "pt", "pk", "pl",
+        "ph", "nz", "nl", "mx", "pe", "no", "my", "lv", "lt", "kw", "jp", "is", "il", "lk", "kr", "it", "in",
+        "ie", "hu", "id", "hk", "gb", "fi", "eg", "dk", "gr", "fr", "es", "ee", "de", "cz", "cl", "ca", "be",
+        "at", "cn", "br", "au", "ar", "ch"
+    },
+Symbol
+	'ticker'
+Price (Intraday)
+	'intradayprice', digit only(no $)
+	Below $10
+	$10 to $50
+	Above $50
+	Custom
+Price (End of Day)
+	'eodprice'
+Volume
+	'dayvolume'
+	Low Volume (Below 100K)
+	Medium Volume (100K to 1M)
+	High Volume (Above 1M)
+	Custom
+Volume (End of Day)
+	'eodvolume'
+Avg Vol (3 month)
+	'avgdailyvol3m'
+Market Cap (Intraday)
+	'intradaymarketcap'
+	Below $1B
+	$1B to $10B
+	Above $10B
+	Below $2B
+	$2B to $10B
+	$10B to $100B
+	Above $100B
+	Custom
+Sector
+	'sector'
+Industry
+	'industry'
+Beta (5Y Montly)
+	'beta'
+	< -0.2
+	-0.2 ~ 0.2
+	0.2 ~ 0.8
+	0.8 ~ 1.2
+	1.2 ~ 2.0
+	2.0 <
+	Custom
+Exchange
+	'exchange'
+Short Interest Ratio
+	'days_to_cover_short.value'
+	< 1
+	1 ~ 5
+	5 <
+	Custom
+Short Interest
+	'short_interest.value'
+	< 1M
+	1M ~ 10M
+	10M <
+	Custom
+Short Interest % Change
+	'short_interest_percentage_change.value'
+	< 0%
+	0% ~ 10%
+	10% <
+	Custom
+Short % of Float
+	'short_percentage_of_float.value'
+	< 5%
+	5% ~ 20%
+	20% <
+	Custom
+Short % of Shares Outstanding
+	'short_percentage_of_shares_outstanding.value'
+	< 5%
+	5% ~ 20%
+	20% <
+	Custom
+Peer Group
+	'peer_group'
+	Banks
+	Software & Services
+	Utilities
+	Pharmaceuticals
+	Insurance
+	Food Products
+	Chemicals
+	Machinery
+	Oil & Gas Producers
+	Technology Hardware
+	Consumer Services
+	Semiconductors
+	Food Retailers
+	Household Products
+	Diversified Metals
+	Refiners & Pipelines
+	Auto Components
+	Electrical Equipment
+	Traders & Distributors
+	Building Products
+	Precious Metals
+	Transportation Infrastructure
+	Homebuilders
+	Energy Services
+	Containers & Packaging
+	US Fund Miscellaneous Region
+	EAA Fund Denmark Equity
+	EAA Fund Global Emerging Markets Equity
+	EAA Fund Sector Equity Technology
+	EAA Fund USD Corporate Bond
+	EAA Fund Eurozone Large-Cap Equity
+	US CE Options-based
+	EAA Fund Global Large-Cap Growth Equity
+	EAA Fund EUR Aggressive Allocation - Global
+	US Fund Large Blend
+	EAA Fund Sector Equity Consumer Goods & Services
+	EAA CE Global Large-Cap Blend Equity
+	US Fund Technology
+	EAA Fund Japan Large-Cap Equity
+	US Fund China Region
+	EAA Fund South Africa & Namibia Equity
+	US Fund Large Value
+	EAA CE Sector Equity Biotechnology
+	India Fund Sector - Financial Services
+	US Fund Diversified Emerging Mkts
+	EAA CE UK Small-Cap Equity
+	EAA Fund Hong Kong Equity
+	China Fund QDII Greater China Equity
+	India CE Multi-Cap
+	US Fund Financial
+	EAA CE Other
+	EAA Fund Global Equity Income
+	US Fund Consumer Cyclical
+	US Fund Foreign Large Blend
+
+
+Ratios
+
+Return on Equity (ROE) %
+	# XXX
+	'returnonequity.lasttwelvemonths'
+	10%, 20%
+1 yr. % Changr in EPS (Basic)
+	'epsgrowth.lasttwelvemonths'
+	15%, 25%, 50%, 100%
+Debt/Equity (D/E) %
+	'totaldebtequity.lasttwelvemonths'
+	50%, 100%
+Current Ratio
+	'currentratio.lasttwelvemonths'
+	1, 2
+Gross Profit Margin %
+	'grossprofitmargin.lasttwelvemonths'
+	20%, 50%
+Return on Assets (ROA) %
+	'returnonassets.lasttwelvemonths'
+	5%, 10%
+Long Term Debt/Equity (LT D/E) %
+	'ltdebtequity.lasttwelvemonths'
+	50%, 100%
+Return on Invested Capital (ROIC)
+	'returnontotalcapital.lasttwelvemonths'
+	5%, 10%
+Net Income Margin %
+	'netincomemargin.lasttwelvemonths'
+	0%, 10%
+Altman Z Score
+	"altmanzscoreusingtheaveragestockinformationforaperiod.lasttwelvemonths"
+	1.8, 3
+Dividend Yield %
+	'dividendyield'
+	0% ~ 2%
+	2% ~ 4%
+	4% <
+Quick Ratio
+	'quickratio.lasttwelvemonths'
+	3, 6
+Total Debt / EBITDA
+	'totaldebtebitda.lasttwelvemonths'
+	10%, 20%
+EBITDA Margin %
+	'ebitdamargin.lasttwelvemonths'
+	10%, 20%
+Net Debt / EBITDA
+	'netdebtebitda.lasttwelvemonths'
+	1, 2
+Operating Cash Flow Ratio
+	"operatingcashflowtocurrentliabilities.lasttwelvemonths"
+	1, 2
+Forward Dividend Yield %
+	'forward_dividend_yield'
+	0 ~ 2%
+	2% <
+EBITDA / Interest Expense (LTM)
+	"ebitdainterestexpense.lasttwelvemonths"
+	1, 3	
+EBIT / Interest Expense (LTM)
+	"ebitinterestexpense.lasttwelvemonths"
+	1, 3
+
+
+Performance
+
+52 Week Price % Change
+	"fiftytwowkpercentchange"
+	0%, 50%
+Price Change (Intraday)
+	"intradaypricechange"
+	$10, $50
+52 Week Price High (Last Close)
+	"lastclose52weekhigh.lasttwelvemonths"
+	$10, $50
+52 Week Price Low (Last Close)
+	"lastclose52weeklow.lasttwelvemonths"
+	$10, $50
+% Change in Price (Intraday)
+	'percentchange'
+	%0, 5%
+Consecutive Years of Dividend Growth Count
+	"consecutive_years_of_dividend_growth_count"
+	5, 10
+
+
+Financials - Income Statement
+
+1 Yr. % Change in Total Revenue
+	"totalrevenues1yrgrowth.lasttwelvemonths"
+	0%, 10%
+1 Yr. % Change in Net Income
+	"netincome1yrgrowth.lasttwelvemonths"
+	0%, 10%
+EPS (Basic, Continuing Operations)
+	"basicepscontinuingoperations.lasttwelvemonths"
+	$1, $5
+Quarterly Revenue Growth (yoy) %
+	"quarterlyrevenuegrowth.quarterly"
+	15%, 25%, 50%, 100%
+Total Revenue
+	"totalrevenues.lasttwelvemonths"
+	$1B, $10B
+EPS (Basic)
+	"netepsbasic.lasttwelvemonths"
+	$1, $5
+1 Yr. % Change in EBITDA
+	"ebitda1yrgrowth.lasttwelvemonths"
+	0%, 10%
+1 Yr. % Change in EPS (Diluted)
+	"dilutedeps1yrgrowth.lasttwelvemonths"
+	0%, 10%
+EPS (Diluted)
+	"netepsdiluted.lasttwelvemonths"
+	$1, $5
+Net Income
+	"netincomeis.lasttwelvemonths"
+	$1B, $10B
+Operating Income
+	"operatingincome.lasttwelvemonths"
+	$1B, $10B
+Gross Profit
+	"grossprofit.lasttwelvemonths"
+	$1B, $10B
+EBITDA
+	"ebitda.lasttwelvemonths"
+	$1B, $10B
+EPS (Diluted, Continuing Operations)
+	"dilutedepscontinuingoperations.lasttwelvemonths"
+	$1, $5
+EBIT
+	"ebit.lasttwelvemonths"
+	$1B, $10B
+
+
+Financials - Balance Sheet
+
+Book Value / Share
+	"bookvalueshare.lasttwelvemonths"
+	$10, $50
+Total Shares Outstanding
+	"totalsharesoutstanding"
+	10M, 100M
+Total Debt
+	"totaldebt.lasttwelvemonths"
+	$1B, $10B
+Total Assets
+	"totalassets.lasttwelvemonths"
+	$1B, $10B
+Total Cash And Short Term Investments
+	"totalcashandshortterminvestments.lasttwelvemonths"
+	$100M, $1B
+Total Current Assets
+	"totalcurrentassets.lasttwelvemonths"
+	$1B, $10B	
+Total Equity
+	"totalequity.lasttwelvemonths"
+	$1B, $10B	
+Total Common Shares Outstanding
+	"totalcommonsharesoutstanding.lasttwelvemonths"
+	10M, 100M
+Total Current Liabilities
+	"totalcurrentliabilities.lasttwelvemonths"
+	$1B, $10B	
+Total Common Equity
+	"totalcommonequity.lasttwelvemonths"
+	$1B, $10B
+
+
+Financials - Cash Flow
+
+1 yr. % Changes in Cash from Operations
+	"cashfromoperations1yrgrowth.lasttwelvemonths"
+	0%, 10%
+Unlevered (before expenses) Free Cash Flow
+	"unleveredfreecashflow.lasttwelvemonths"
+	$100M, $1B
+Levered (after expenses) Free Cash Flow
+	"leveredfreecashflow.lasttwelvemonths"
+	$100M, $1B
+1 yr. % Change in Levered Free Cash Flow
+	"leveredfreecashflow1yrgrowth.lasttwelvemonths"
+	0%, 10%
+Dividend Per Share (DPS)
+	"dividendpershare.lasttwelvemonths"
+	$1, $5
+Capita Expenditure (CapEx)
+	"capitalexpenditure.lasttwelvemonths"
+	$100M, $1B
+Forward Dividend Per Share
+	"forward_dividend_per_share"
+	$1, $5
+Cash From Operations
+	"cashfromoperations.lasttwelvemonths"
+	$10M, $100M
+
+
+Valuation
+
+Market Cap (Intraday)
+	"lastclosemarketcap.lasttwelvemonths"
+	$1B, $10B
+Total Enterprise Value (TEV) / EBITDA
+	"lastclosetevebitda.lasttwelvemonths"
+	5, 10
+Price / Tangible Book Value (P/TB)
+	"lastclosepricetangiblebookvalue.lasttwelvemonths"
+	1, 3
+Total Enterprise Value (TEV) / EBIT
+	"lastclosetevebit.lasttwelvemonths"
+	5, 10
+Price / Sales (P/S)
+	"lastclosemarketcaptotalrevenue.lasttwelvemonths"
+	1, 3
+Total Enterprise Value / Total Revenue (EV/Sales)
+	"lastclosetevtotalrevenue.lasttwelvemonths"
+	1, 3
+Price / Book Value (P/B)
+	"lastclosepricebookvalue.lasttwelvemonths"
+	1, 3
+Price / Earnings (P/E)
+	"lastclosepriceearnings.lasttwelvemonths"
+	10, 20
+Price / Earnings to Growth (P/E/G)
+	"pegratio_5y"
+	1, 2, 3
+Trailing P/E
+	"peratio.lasttwelvemonths"
+	0, 20, 50, 80
+P/B (most recent quarter to mrq)
+	"pricebookratio.quarterly"
+	1, 2, 3
+
+
+ESG
+
+Environmental Score
+	"environmental_score"
+	30, 70
+ESG Score
+	"esg_score"
+	30, 70
+Governance Score
+	"governance_score"
+	30, 70
+Social Score
+	"social_score"
+	30, 70
+Highest Controversy
+	"highest_controversy"
+	None -> 0
+	Low -> ...
+	Moderate
+	High
+	Medium
+	Severe
+
+Ownership
+
+% of Shares Outstanding Held by Insiders
+	"pctheldinsider"
+	15%, 25%, 50%, 100%
+% of Shares Outstanding Held by Institutions
+	"pctheldinst"
+	15%, 25%, 50%, 100%

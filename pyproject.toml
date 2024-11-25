@@ -1,15 +1,16 @@
 [tool.poetry]
-name = "project"
+name = "yscreener"
 version = "0.1.0"
-description = "`project` is a Python package that ..."
+description = "Yahoo finance screener Python client"
 authors = ["th yoo <taihyungyoo@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-homepage = "https://github.com/th-yoo/project"
+homepage = "https://github.com/th-yoo/yscreener"
 keywords = []
 
 [tool.poetry.dependencies]
 python = "^3.9"
+aiohttp = "^3.11.7"
 
 [build-system]
 requires = ["poetry-core"]
